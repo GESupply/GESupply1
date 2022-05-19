@@ -2,7 +2,9 @@
 
 var objs = document.getElementById ('objs')
 
-for (var obj of objects) {
+// NANI
+for (var object of objects)
+for (var obj of object) {
 
 	var olink = document.createElement ('a')
 	olink.href = obj.link
@@ -27,9 +29,6 @@ for (var obj of objects) {
 }
 
 
-
-
-
 var ob = document.getElementsByClassName ('ob')
 
 style ()
@@ -40,9 +39,8 @@ window.addEventListener ('resize', () => {
 function style () {
 
 	for (o of ob) {
-		o.style.height = (Math.floor (window.innerHeight * 0.3)).toString () + 'px'
-		o.style.marginLeft = '10px'
-
+		o.style.height = (Math.floor (window.innerHeight * 0.4)).toString () + 'px'
+		
 	}
 }
 
