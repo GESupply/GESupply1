@@ -43,7 +43,20 @@ function style () {
 
 	for (o of ob) {
 		o.style.height = (Math.floor (window.innerHeight * 0.4)).toString () + 'px'
-		
+	}
+
+	if (parseInt (window.innerWidth) < 350) {
+		for (o of ob) {
+			o.style.width = '80%'
+		}
+	} else if (parseInt (window.innerWidth) < 550) {
+		for (o of ob) {
+			o.style.width = '40%'
+		}
+	} else {
+		for (o of ob) {
+			o.style.width = '25%'
+		}
 	}
 }
 
