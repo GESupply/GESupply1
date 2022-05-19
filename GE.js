@@ -1,33 +1,36 @@
 
-
-var objs = document.getElementById ('objs')
+//var objs = document.getElementById ('objs')
 
 // NANI 
-for (var object of objects)
-for (var obj of object) {
+var i = 0
+for (var object of objects) {
+	for (var obj of object) {
 
-	var olink = document.createElement ('a')
-	olink.href = obj.link
+		var olink = document.createElement ('a')
+		olink.href = obj.link
 
-	var oimg = document.createElement ('img')
-	oimg.src = obj.img
-	oimg.className = 'imgs'
+		var oimg = document.createElement ('img')
+		oimg.src = obj.img
+		oimg.className = 'imgs'
 
-	var oname = document.createElement ('p')
-	oname.innerHTML = obj.name
+		var oname = document.createElement ('p')
+		oname.innerHTML = obj.name
 
-	var ob = document.createElement ('div')
-	ob.className = 'ob'
+		var ob = document.createElement ('div')
+		ob.className = 'ob'
 
-	ob.appendChild (oimg)
-	ob.appendChild (oname)
-	olink.appendChild (ob)
+		ob.appendChild (oimg)
+		ob.appendChild (oname)
+		olink.appendChild (ob)
 
-	objs.appendChild (olink)
+		var objs = document.getElementById ('objs' + i.toString ())
+		objs.appendChild (olink)
 
-	console.log (ob)
+		console.log (ob)
+	}
+
+	i++
 }
-
 
 var ob = document.getElementsByClassName ('ob')
 
@@ -45,3 +48,14 @@ function style () {
 }
 
 
+var car = document.getElementById('carousel')
+console.log (car)
+
+for (var i = 0; i < objects.length; i++) {
+	
+	var con = document.getElementById ('b' + i.toString ())
+	con.addEventListener ('click', () => {
+		car.to ('1')
+	})
+
+}
