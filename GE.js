@@ -47,15 +47,3 @@ function style () {
 	}
 }
 
-
-var car = document.getElementById('carousel')
-console.log (car)
-
-for (var i = 0; i < objects.length; i++) {
-	
-	var con = document.getElementById ('b' + i.toString ())
-	con.addEventListener ('click', () => {
-		car.to ('1')
-	})
-
-}
