@@ -2,7 +2,7 @@
 
 var objs = document.getElementById ('objs')
 
-// NANI
+// NANI 
 for (var object of objects)
 for (var obj of object) {
 
