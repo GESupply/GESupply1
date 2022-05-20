@@ -9,7 +9,17 @@ for (var object of objects) {
 
 		var olink = document.createElement ('a')
 		var cloc = window.location.href
-		var loc = (cloc).substring (0, cloc.length - 11) + 'Item.html?id=' + i.toString () + j.toString ()
+		var fr = undefined
+		for (var it = 0; it < cloc.length; it++) {
+			if (cloc[it] == 'S' && cloc[it + 1] == 'u' && cloc[it + 2] == 'p' && cloc[it + 3] == 'p' && cloc[it + 4] == 'l' && cloc[it + 5] == 'y') 
+				if (!fr) 
+					fr = 1
+				else {
+					fr = it
+					break
+				}
+		}
+		var loc = (cloc).substring (0, it) + 'Item.html?id=' + i.toString () + j.toString ()
 		olink.href = loc
 
 		var oimg = document.createElement ('img')
