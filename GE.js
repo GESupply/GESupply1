@@ -4,10 +4,13 @@
 // NANI 
 var i = 0
 for (var object of objects) {
+	var j = 0
 	for (var obj of object) {
 
 		var olink = document.createElement ('a')
-		olink.href = obj.link
+		var cloc = window.location.href
+		var loc = (cloc).substring (0, cloc.length - 11) + 'Item.html?id=' + i.toString () + j.toString ()
+		olink.href = loc
 
 		var oimg = document.createElement ('img')
 		oimg.src = obj.img
@@ -27,6 +30,7 @@ for (var object of objects) {
 		objs.appendChild (olink)
 
 		console.log (ob)
+		j++
 	}
 
 	i++

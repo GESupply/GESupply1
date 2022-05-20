@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> GESupply </title>
+    <style>
+        body {
+            background-color: rgb(255, 250, 245);
+        }
+        p {
+            display: inline-block;
+        }
+        .bts {
+            float: right;
+            margin-right: 10px;
+            text-align: right;
+        }
+        .cont {
+            font-size: 26px;
+            text-align: right;
+        }
+        #top {
+            width: 80%;
+            margin-left: 10%;
+            display: inline-block;
+            position: relative;
+        }
+        #img {
+            max-width: 60%;
+            max-height: 80%;
+        }
+        #nam {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            font-size: 28px;
+        }
+        #but {
+            float: right;
+            margin-right: 0;
+            width: 35%;
+            font-size: 32px;
+        }
+        #sav {
+            float: right;
+            margin-right: 0;
+            width: 35%;
+        }
+        #txt {
+            margin-left: 8%;
+            margin-top: 60px;
+            font-size: 24px;
+        }
+
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+
+
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" id="menu"> GESupply </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 cont">
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    
+
+    <div id="top"> 
+        <img id="img"> </img>
+        <p id="nam"> </p>
+        <a id="lin"> <button id="but"> Buy on Amazon </button> </a>
+        <button id="sav"> Add to bookmarks </button>
+    </div>
+
+
+    <div id="txt"> </div>
+        
+
+    <script src="dbs.js"> </script>
+    <script src="GEitem.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
