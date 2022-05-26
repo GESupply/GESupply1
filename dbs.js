@@ -119,10 +119,73 @@ var objects = [
 	], // Laptops
 	[
 		{
-			name: "Home Decor Metal Wall Art",
-			img: "https://m.media-amazon.com/images/I/71b+Oq6JPWL._AC_SX679_.jpg",
-			link: "https://amzn.to/3PMae5p",
-			price: "176.00",
+			name: "Magnetic Phone Holder for Car",
+			img: "https://m.media-amazon.com/images/I/71kHoyNmj0L._AC_SX569_.jpg",
+			link: "https://amzn.to/3NwJ0NS",
+			price: "10.75",
+			txt: ""
+		},
+		{
+			name: "Vehicle Rear View Mirror Phone Holder",
+			img: "https://m.media-amazon.com/images/I/71bopOOBhIL._AC_SX679_.jpg",
+			link: "https://amzn.to/3NFwrQK",
+			price: "9.99",
+			txt: ""
+		},
+		{
+			name: "Car Cup Holder Phone Mount",
+			img: "https://m.media-amazon.com/images/I/61ykL1utbBL._AC_SX679_.jpg",
+			link: "https://amzn.to/3wS31YM",
+			price: "22.99",
+			txt: ""
+		},
+		{
+			name: "Car Phone Holder Mount",
+			img: "https://m.media-amazon.com/images/I/71kyVH7yC8L._AC_SX679_.jpg",
+			link: "https://amzn.to/3lN2AcW",
+			price: "9.20",
+			txt: ""
+		},
+		{
+			name: "Portable Steering Wheel Phone Holder",
+			img: "https://m.media-amazon.com/images/I/51DVRMcBQwL._AC_.jpg",
+			link: "https://amzn.to/3wOgqCh",
+			price: "1.88",
+			txt: ""
+		},
+		{
+			name: "LED Ring Light Kit",
+			img: "https://m.media-amazon.com/images/I/61lQWcbaw7L._AC_SX466_.jpg",
+			link: "https://amzn.to/3sXbybQ",
+			price: "189.00",
+			txt: ""
+		},
+		{
+			name: "JBL Flip 4 Bluetooth Speaker",
+			img: "https://m.media-amazon.com/images/I/61d5F64UDpL._AC_SX466_.jpg",
+			link: "https://amzn.to/3x9OFTR",
+			price: "84.95",
+			txt: ""
+		},
+		{
+			name: "Sony Bluetooth Portable Speaker",
+			img: "https://m.media-amazon.com/images/I/81NfNapLYxL._AC_SX679_.jpg",
+			link: "https://amzn.to/3PCFFyV",
+			price: "128.00",
+			txt: ""
+		},
+		{
+			name: "Sony On-Ear Headphones",
+			img: "https://m.media-amazon.com/images/I/416mZ6bkTyL._AC_SX679_.jpg",
+			link: "https://amzn.to/3yXr1fJ",
+			price: "19.99",
+			txt: ""
+		},
+		{
+			name: "Skullcandy Crusher Wireless Over-Ear Headphones",
+			img: "https://m.media-amazon.com/images/I/71QbbvhjDcL._AC_SX679_.jpg",
+			link: "https://amzn.to/3NFnfvl",
+			price: "53.99",
 			txt: ""
 		},
 		{
@@ -130,6 +193,50 @@ var objects = [
 			img: "",
 			link: "",
 			price: "",
+			txt: ""
+		}
+	], // Phone acc
+	[
+		{
+			name: "Adjustable Laptop Stand",
+			img: "https://m.media-amazon.com/images/I/61KhwXu0z4L._AC_SX466_.jpg",
+			link: "https://amzn.to/3ad1zs8",
+			price: "69.99",
+			txt: ""
+		},
+		{
+			name: "Lap Desk",
+			img: "https://m.media-amazon.com/images/I/81uMy2bv84L._AC_SX466_.jpg",
+			link: "https://amzn.to/3yWBtnx",
+			price: "64.17",
+			txt: ""
+		},
+		{
+			name: "17.3 Inch Sleeve Bag",
+			img: "https://m.media-amazon.com/images/I/41HAJbWINHL._AC_SX466_.jpg",
+			link: "https://amzn.to/38RRT5Z",
+			price: "10.99",
+			txt: ""
+		},
+		{
+			name: "LED Adjustable Speed Control Cooling Pad",
+			img: "https://m.media-amazon.com/images/I/919B55ca9bL._AC_SX466_.jpg",
+			link: "https://amzn.to/3PFI9wm",
+			price: "44.22",
+			txt: ""
+		},
+		{
+			name: "USB Powered Stereo Speaker System",
+			img: "https://m.media-amazon.com/images/I/81DYmH9mLsL._AC_SX466_.jpg",
+			link: "https://amzn.to/38K5xZa",
+			price: "15.11",
+			txt: ""
+		},
+		{
+			name: "SanDisk 128GB",
+			img: "https://m.media-amazon.com/images/I/61TuPtmTScL._AC_SX466_.jpg",
+			link: "https://amzn.to/3NyoU60",
+			price: "24.21",
 			txt: ""
 		},
 		{
@@ -146,7 +253,7 @@ var objects = [
 			price: "",
 			txt: ""
 		}
-	] // Home Decor
+	] // Computer acc
 ]
 
 
