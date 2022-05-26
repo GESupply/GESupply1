@@ -58,8 +58,87 @@ var objects = [
 			price: "526.88",
 			txt: ""
 		}
-	], //tech
+	], // Phone
 	[
+		{
+			name: "Acer swift 3",
+			img: "https://m.media-amazon.com/images/I/618GEuHt8ML._AC_SX679_.jpg",
+			link: "https://amzn.to/3NrKTvj",
+			price: "679.99",
+			txt: ""
+		},
+		{
+			name: "Acer Spin 5",
+			img: "https://m.media-amazon.com/images/I/61LHj2XV1wL._AC_SX425_.jpg",
+			link: "https://amzn.to/3Pz0Q4P",
+			price: "938.68",
+			txt: ""
+		},
+		{
+			name: "Acer Aspire 5",
+			img: "https://m.media-amazon.com/images/I/71MSptSmTCL._AC_SX569_.jpg",
+			link: "https://amzn.to/3wGOuyT",
+			price: "699.99",
+			txt: ""
+		},
+		{
+			name: "Lenovo Ideapad 3",
+			img: "https://m.media-amazon.com/images/I/71eLIuDmIgL._AC_SX466_.jpg",
+			link: "https://amzn.to/3LNKW3D",
+			price: "524.97",
+			txt: ""
+		},
+		{
+			name: "Lenovo e15 Professional Laptop ",
+			img: "https://m.media-amazon.com/images/I/61oWqHJmifL._AC_SX569_.jpg",
+			link: "https://amzn.to/3sKNbh5",
+			price: "739.99",
+			txt: ""
+		},
+		{
+			name: "Lenovo Legion 5 15 Gaming Laptop",
+			img: "https://m.media-amazon.com/images/I/81PbOX7ZtaL._AC_SX466_.jpg",
+			link: "https://amzn.to/38HB3Xx",
+			price: "1192.32",
+			txt: ""
+		},
+		{
+			name: "ASUS VivoBook Flip 14",
+			img: "https://m.media-amazon.com/images/I/716uKzhnAvL._AC_SX466_.jpg",
+			link: "https://amzn.to/3MCW4Bh	",
+			price: "",
+			txt: "901.03"
+		},
+		{
+			name: "ASUS ExpertBook",
+			img: "https://m.media-amazon.com/images/I/71sP1m34-1L._AC_SX466_.jpg",
+			link: "https://amzn.to/3yY1keK",
+			price: "486.66",
+			txt: ""
+		}
+	], // Laptops
+	[
+		{
+			name: "Home Decor Metal Wall Art",
+			img: "https://m.media-amazon.com/images/I/71b+Oq6JPWL._AC_SX679_.jpg",
+			link: "https://amzn.to/3PMae5p",
+			price: "176.00",
+			txt: ""
+		},
+		{
+			name: "",
+			img: "",
+			link: "",
+			price: "",
+			txt: ""
+		},
+		{
+			name: "",
+			img: "",
+			link: "",
+			price: "",
+			txt: ""
+		},
 		{
 			name: "",
 			img: "",
@@ -67,16 +146,7 @@ var objects = [
 			price: "",
 			txt: ""
 		}
-	], //workout
-	[
-		{
-			name: "",
-			img: "",
-			link: "",
-			price: "",
-			txt: ""
-		}
-	] //pets
+	] // Home Decor
 ]
 
 
